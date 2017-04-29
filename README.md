@@ -1,6 +1,6 @@
 # riversmoodproject
 
-The River's mood project for space apps challenge 2017 by NASA
+The River's mood project for space apps challenge 2017 by NASA.
 
 https://2017.spaceappschallenge.org/challenges/planetary-blues/water-water-everywhere/teams/blogueras-techie/project
 
