@@ -1,1 +1,33 @@
 /* cards! */
+.card {
+  background: #fff;
+  border-radius: 2px;
+  display: inline-block;
+  height: 150px;
+  margin: 1rem;
+  position: relative;
+  width: 300px;
+  padding: 12px;
+  border-radius: 3px;
+}
+.card__title {
+  font-size: 20px;
+  font-weight: bold;
+}
+.card__body {
+  display: block;
+  margin: 5px 0 0;
+  font-size: 16px;
+  font-style: normal;
+  color: #757575;
+
+}
+
+.card-1 {
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.card-1:hover {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}

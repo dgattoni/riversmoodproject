@@ -13,6 +13,7 @@ https://2017.spaceappschallenge.org/challenges/planetary-blues/water-water-every
 - http://lea.verou.me/css3patterns/#waves
 - flexbox timeline: https://codepen.io/eisneim/pen/goHEr/
 - JS30 form styles: https://javascript30.com/
+- cards: https://codepen.io/sdthornton/pen/wBZdXq
 
 ## assets
 - Credits: Logo created by Becris from the Noun Project (https://thenounproject.com/Becris/)

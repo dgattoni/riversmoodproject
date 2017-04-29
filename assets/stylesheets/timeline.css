@@ -20,7 +20,6 @@ background-size:75px 100px;
 }
 
 .timeline__list ul {
-  width: 650px;
   margin: 0 auto 0px;
   list-style: none;
 }
@@ -63,13 +62,13 @@ background-size:75px 100px;
   display: block;
   width: 20px;
   height: 20px;
-  border: 5px solid #999;
+  border: 5px solid #113c77;
   border-radius: 50%;
   background: #fff;
 }
 
 .timeline__list li:first-child p:nth-child(1):after {
-  background: #cfc;
+  background: #96cc9b;
 }
 
 .timeline__list li p:nth-child(2) {
