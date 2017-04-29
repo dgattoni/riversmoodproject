@@ -67,7 +67,7 @@ h1 {
 
 .section--mountains {
   background-color: #FFF;
-  background-image: url('assets/images/mountains-header.svg'), none;
+  background-image: url('../images/mountains-header.svg'), none;
   height: 200px;
   background-repeat: repeat-x;
   background-position: 50% 102%;
@@ -85,7 +85,7 @@ h1 {
 
 .section--ocean {
   background-color: #2b80b3;
-  background-image: url(assets/images/ocean-footer.svg), none;
+  background-image: url('../images/ocean-footer.svg'), none;
   height: 110px;
   background-repeat: repeat-x;
   background-position: top center;

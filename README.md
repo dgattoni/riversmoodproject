@@ -9,8 +9,11 @@ https://2017.spaceappschallenge.org/challenges/planetary-blues/water-water-every
 
 ## sources:
 
-## assets / code snippets:
+## code snippets
 - http://lea.verou.me/css3patterns/#waves
-- Header graphic: http://www.freepik.com/free-vector/water-cycle-infographic_771771.htm Designed by Freepik
 - flexbox timeline: https://codepen.io/eisneim/pen/goHEr/
 - JS30 form styles: https://javascript30.com/
+
+## assets
+- Header graphic: http://www.freepik.com/free-vector/water-cycle-infographic_771771.htm Designed by Freepik
+- https://dribbble.com/mackenziechild/projects/326294-Daily-Design
