@@ -1,10 +1,27 @@
-.timeline {
+/*.timeline__river-column {
+width: 200px;
+
+background:
+radial-gradient(circle at 100% 50%, transparent 20%, rgba(255,255,255,.3) 21%, rgba(255,255,255,.3) 34%, transparent 35%, transparent),
+radial-gradient(circle at 0% 50%, transparent 20%, rgba(255,255,255,.3) 21%, rgba(255,255,255,.3) 34%, transparent 35%, transparent) 0 -50px;
+background-color: #2b80b3;
+background-size:75px 100px;
+
+}*/
+
+.timeline__list {
   display: flex;
   justify-content: center;
+  max-width: 1020px;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+
 }
+
 .timeline__list ul {
   width: 650px;
-  margin: 40px auto 0px;
+  margin: 0 auto 0px;
   list-style: none;
 }
 
@@ -28,6 +45,14 @@
   font-size: 14px;
   line-height: 2.5;
   color: #FFF;
+
+  background:
+  radial-gradient(circle at 100% 50%, transparent 20%, rgba(255,255,255,.3) 21%, rgba(255,255,255,.3) 34%, transparent 35%, transparent),
+  radial-gradient(circle at 0% 50%, transparent 20%, rgba(255,255,255,.3) 21%, rgba(255,255,255,.3) 34%, transparent 35%, transparent) 0 -50px;
+  background-color: #2b80b3;
+  background-size:75px 100px;
+    height: 200px;
+
 }
 
 .timeline__list li p:nth-child(1):after {
