@@ -1,0 +1,182 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+html, body {
+  font: 1em/1 'Open Sans', sans-serif;
+  color: black;
+  background: #FFF;
+  height: 100%;
+}
+
+a {
+  color: black;
+
+}
+h1 {
+  margin: 0;
+  line-height: 80px;
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+  color: #fff;
+}
+
+.page-wrap--bg-waves {
+  min-height: 100%;
+  background:
+  radial-gradient(circle at 100% 50%, transparent 20%, rgba(255,255,255,.3) 21%, rgba(255,255,255,.3) 34%, transparent 35%, transparent),
+  radial-gradient(circle at 0% 50%, transparent 20%, rgba(255,255,255,.3) 21%, rgba(255,255,255,.3) 34%, transparent 35%, transparent) 0 -50px;
+  background-color: #2b80b3;
+  background-size:75px 100px;
+}
+
+.site-header {
+  display: flex;
+  height: 100px;
+  margin: 0;
+  padding: 0 40px 0 80px;
+  justify-content: space-between;
+  font-size: 16px;
+  align-items: center;
+  background-color: white;
+}
+
+.site-header__logo {
+  height: 40px;
+  width: auto;
+  align-items: center;
+  display: flex;
+}
+
+.site-header__logo__img {
+  margin: 0 10px;
+}
+
+.site-header__logo__name {
+  margin: 0 10px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 43px;
+  font-weight: 700;
+}
+
+.section--mountains {
+  background-color: #FFF;
+  background-image: url('assets/images/mountains-header.svg'), none;
+  height: 200px;
+  background-repeat: repeat-x;
+  background-position: 50% 102%;
+}
+
+.page-wrap {
+  min-height: 100%;
+  margin-bottom: -110px;
+}
+
+.page-wrap:after {
+  content: "";
+  display: block;
+}
+
+.section--ocean {
+  background-color: #2b80b3;
+  background-image: url(assets/images/ocean-footer.svg), none;
+  height: 110px;
+  background-repeat: repeat-x;
+  background-position: top center;
+}
+
+.page-wrap:after {
+  height: 110px;
+}
+
+.site-footer {
+  background-color: #2BB3AF;
+  display: flex;
+  justify-content: center;
+}
+
+.site-footer__nav {
+  margin: 0 10px;
+  padding: 20px;
+  align-self: flex-end;
+}
+.footer__nav__item{
+  color: white;
+  margin: 0 10px;
+}
+.site-header__nav {
+  margin: 0 10px;
+}
+
+/* * * * * *  * * * * *  * * * * *  * * * * *  * * * * *  * * * * *  * * * * * /
+/* styles from JS30 BY Wesbos */
+input {
+  width: 100%;
+  padding:20px;
+}
+
+.search-form {
+  max-width:400px;
+  margin:40px auto;
+}
+
+input.search {
+  margin: 0;
+  text-align: center;
+  outline:0;
+  border: 10px solid #F7F7F7;
+  width: 120%;
+  left: -10%;
+  position: relative;
+  top: 10px;
+  z-index: 2;
+  border-radius: 5px;
+  font-size: 40px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.12), inset 0 0 2px rgba(0, 0, 0, 0.19);
+}
+
+.suggestions {
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+.suggestions li {
+  background:white;
+  list-style: none;
+  border-bottom: 1px solid #D8D8D8;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.14);
+  margin:0;
+  padding:20px;
+  transition: background 0.2s;
+  display:flex;
+  justify-content:space-between;
+  text-transform: capitalize;
+}
+
+.suggestions li:nth-child(even) {
+  transform: perspective(100px) rotateX(3deg) translateY(2px) scale(1.001);
+  background: linear-gradient(to bottom,  #ffffff 0%,#EFEFEF 100%);
+}
+
+.suggestions li:nth-child(odd) {
+  transform: perspective(100px) rotateX(-3deg) translateY(3px);
+  background: linear-gradient(to top,  #ffffff 0%,#EFEFEF 100%);
+}
+
+span.population {
+  font-size: 15px;
+}
+
+.details {
+  text-align: center;
+  font-size: 15px;
+}
+/* end js30 styles*/
+/* * * * * *  * * * * *  * * * * *  * * * * *  * * * * *  * * * * *  * * * * * /
