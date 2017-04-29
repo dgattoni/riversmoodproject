@@ -1,0 +1,22 @@
+/* -----------------------------------------------------------------------------
+
+  Objects - Container
+
+----------------------------------------------------------------------------- */
+
+.Container {
+  margin: 0 auto;
+  padding: 0 $gutter-h;
+}
+
+.Container--full {
+  max-width: 100%;
+}
+
+.Container--wide {
+  max-width: 96rem;
+}
+
+.Container--narrow {
+  max-width: 60rem;
+}
