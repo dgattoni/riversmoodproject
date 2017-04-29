@@ -1,0 +1,41 @@
+// -----------------------------------------------------------------------------
+//
+//      Config - Variables
+//
+// -----------------------------------------------------------------------------
+
+// Colors
+
+$color-brand-main:     #0097A7;
+$color-brand-dark-1:   darken($color-brand-main, 20%);
+$color-brand-light-1:  lighten($color-brand-main, 20%);
+$color-brand-light-2:  lighten($color-brand-main, 75%);
+$accent-color: #FFC107;
+
+$color-branch-secondary-1: rgb(43, 179, 175);
+$color-branch-secondary-2: rgba(43, 179, 175, 0.85);
+$color-branch-secondary-3: rgba(43, 179, 175, 0.65);
+
+$color-greyscale-1: #111;
+$color-greyscale-2: #333;
+$color-greyscale-3: #555;
+$color-greyscale-4: #777;
+$color-greyscale-5: #999;
+$color-greyscale-6: #aaa;
+$color-greyscale-7: #ccc;
+$color-greyscale-8: #eee;
+
+// Font Stacks
+
+$font-primary: "Open Sans Condensed", Helvetica, Arial, sans-serif;
+$font-secondary: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+// Spacing
+
+$gutter-v: 2rem;
+$gutter-h: 2rem;
+
+
+// Logo
+$file-logo: "/client/img/images/rivermoodproject.svg";
+$logo-size: 3rem;

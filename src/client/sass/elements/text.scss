@@ -1,0 +1,24 @@
+/* -----------------------------------------------------------------------------
+
+  Elements - Text
+
+----------------------------------------------------------------------------- */
+
+a {
+  color: $accent-color;
+}
+a:active,
+a:hover,
+a:focus {
+  color: $color-brand-dark-1;
+}
+
+strong,
+b {
+  font-weight: 700;
+}
+
+em,
+i {
+  font-style: italic;
+}

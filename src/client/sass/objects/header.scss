@@ -1,0 +1,39 @@
+/* -----------------------------------------------------------------------------
+
+  Objects - Header
+
+----------------------------------------------------------------------------- */
+
+.Header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  margin: 0;
+  padding: 0 40px 0 80px;
+  font-size: 1rem;
+  background-color: white;
+}
+
+.Header__logo {
+  height: 40px;
+  width: auto;
+  align-items: center;
+  display: flex;
+}
+
+.Header__logoImg {
+  margin: 0;
+  width: 8rem;
+  background-image: url("../img/images/rivermoodproject.svg"), none;
+  height: 8rem;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.Header__logoName {
+  margin: 0 10px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 4rem;
+  font-weight: 700;
+}
