@@ -43,7 +43,13 @@
 }
 .Header__nav__item {
     margin: 0 10px;
-    color: #000;
     font-weight: 400;
-    color: #243348;
+    color: #606788;
+    font-size: 14px;
+    text-decoration: none;
+    transition: color .3s ease-in-out;
+}
+.Header__nav__item:hover {
+  color: #96cc9b;
+  text-decoration: underline;
 }
