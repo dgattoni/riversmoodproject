@@ -4,12 +4,12 @@ const meta = require('../content/meta.js');
 const maipo = require('../data/maipo.json');
 const yarra = require('../data/yarra.json');
 const moment = require('moment');
-
 let data;
 
 module.exports = function(app) {
-  app.get('/search/:river', (req, res) => {
-    switch (req.params.river) {
+  app.get('/search', (req, res) => {
+    console.log('req.query.river', req.query.river);
+    switch (req.query.river) {
       case 'maipo':
         data = maipo;
       break;
@@ -34,7 +34,7 @@ module.exports = function(app) {
       page: 'timeline',
       meta: meta('home'),
       cards: augmentedData || [],
-      riverName: req.params.river
+      riverName: req.query.river || 'maipo'
     });
   });
 };
