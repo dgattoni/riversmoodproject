@@ -1,5 +1,10 @@
+.timeline--waves {
+  background-color: #EEE;
+}
+
 .timeline__list {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   max-width: 1020px;
   width: 100%;
@@ -7,13 +12,19 @@
   position: relative;
 }
 
+.timeline__list h1 {
+  text-transform: uppercase;
+  text-align: center;
+  color: #2b4bb3;
+}
+
 .timeline__list ul {
   margin: 0 auto 0px;
   list-style: none;
-  background-image: url('../images/waves.svg');
+  background-image: url('../img/images/waves.svg');
   background-size: 200px;
-    background-origin: border-box;
-    background-repeat: repeat-y;
+  background-origin: border-box;
+  background-repeat: repeat-y;
 }
 
 .timeline__list li {
@@ -51,9 +62,9 @@
   display: block;
   width: 20px;
   height: 20px;
-  border: 5px solid red;
+  border: 1px solid #666;
   border-radius: 50%;
-  background: red;
+  background: #ccc;
 }
 
 .timeline__list li p:nth-child(2) {

@@ -1,0 +1,24 @@
+extends ../layouts/primary.pug
+
+block main
+  .Section
+    .Container
+      .Section.timeline--waves
+        .timeline__list
+          h1 #{riverName} River
+          ul
+            each card,index in cards
+              li
+                p
+                .card.card-1
+                  span.card__date
+                    | #{card.date} | #{card.type}
+                  span.card__title
+                    | #{card.title}
+                    span.card__emoticon
+                      | #{card.emoji}
+                  span.card__body
+                    | #{card.excerpt}
+                  span.card__footer
+                    a.card__link(href=`${card.floodmap}`, target="_blank") View Floodmap NASA at this date
+                    a.card__link(href=`${card.source}`, target="_blank") View Data Source

@@ -12,12 +12,15 @@ https://2017.spaceappschallenge.org/challenges/planetary-blues/water-water-every
 
 ## code snippets
 - http://lea.verou.me/css3patterns/#waves
-- Flexbox timeline: https://codepen.io/eisneim/pen/goHEr/
+- flexbox timeline: https://codepen.io/eisneim/pen/goHEr/
 - JS30 form styles: https://javascript30.com/
+- cards: https://codepen.io/sdthornton/pen/wBZdXq
 
 ## assets
+- Credits: Logo created by Becris from the Noun Project (https://thenounproject.com/Becris/)
 - Header graphic: http://www.freepik.com/free-vector/water-cycle-infographic_771771.htm Designed by Freepik
 - https://dribbble.com/mackenziechild/projects/326294-Daily-Design
+- https://dribbble.com/shots/2435392-Daily-Design-050-Lil-Faces-Illustration-Pack-GIVEAWAY
 
 
 * Production - [https://the-river-mood-project.herokuapp.com](https://the-river-mood-project.herokuapp.com)
