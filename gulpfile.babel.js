@@ -5,6 +5,7 @@ import runSequence from 'run-sequence';
 import data from 'gulp-data';
 
 /** Get tasks */
+import env from './gulp/env.js';
 import clean from './gulp/clean.js';
 import fonts from './gulp/fonts.js';
 import images from './gulp/images.js';
@@ -48,7 +49,7 @@ gulp.task('assets', done => {
 });
 
 gulp.task('data', function() {
-  let dest = '.tmp/server/data';
+  let dest = env.production ? 'dist/server/data' : '.tmp/server/data';
   return gulp.src('src/server/data/*.json')
     .pipe(data(function(file) {
       return file;
