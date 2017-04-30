@@ -3,11 +3,18 @@
   border-radius: 2px;
   display: inline-block;
   height: auto;
-  margin: 1rem 0 0 3rem;
+  margin-bottom: 1rem;
   position: relative;
-  width: 500px;
+  width: 100%;
   padding: 12px;
   border-radius: 3px;
+
+  @media (min-width: 768px) {
+    width: 500px;
+    margin-top: 1rem;
+    margin-left: 3rem;
+    margin-bottom: 1rem;
+  }
 }
 .card__title {
   font-size: 20px;
@@ -16,18 +23,28 @@
   justify-content: space-between;
   padding: 0;
   align-items: center;
+  display: flex;
+  flex-direction: column-reverse;
+  text-align: center;
+
+  @media (min-width: 768px) {
+    text-align: left;
+    flex-direction: row;
+  }
 }
+
 .card__body {
   display: block;
   font-size: 16px;
   font-style: normal;
   color: #757575;
   padding: 12px;
-  width: 90%;
+  width: 100%;
 }
 
 .card__date {
   display: flex;
+  margin-bottom: 1rem;
   font-size: 16px;
 }
 
@@ -47,9 +64,15 @@
   box-sizing: border-box;
   display: flex;
   justify-content: flex-end;
+  flex-direction: column;
+
+  @media (min-width: 768px) {
+    flex-direction: row;
+  }
 }
 .card__emoticon {
   font-size: 7rem;
+  order: 1;
 }
 .card__emoticon img {
   width: 60px;
@@ -68,4 +91,5 @@
 .card__link {
   margin: 1rem;
   color: red;
+  font-size: 15px;
 }

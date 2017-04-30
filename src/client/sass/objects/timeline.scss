@@ -22,9 +22,13 @@
   margin: 0 auto 0px;
   list-style: none;
   background-image: url('../img/images/waves.svg');
-  background-size: 200px;
+  background-size: 30px;
   background-origin: border-box;
   background-repeat: repeat-y;
+
+  @media (min-width: 768px) {
+    background-size: 200px;
+  }
 }
 
 .timeline__list li {
@@ -42,16 +46,20 @@
 }
 
 .timeline__list li p:nth-child(1) {
-  position: relative;
-  font-size: 16px;
-  font-weight: 700;
-  line-height: 2.5;
-  color: #FFF;
-  height: 210px;
-  width: 182px;
-  display: flex;
-  justify-content: center;
-  margin-top: -11px;
+  display: none;
+
+  @media (min-width: 768px) {
+    position: relative;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 2.5;
+    color: #FFF;
+    height: 210px;
+    width: 182px;
+    display: flex;
+    justify-content: center;
+    margin-top: -11px;
+  }
 }
 
 .timeline__list li p:nth-child(1):after {
