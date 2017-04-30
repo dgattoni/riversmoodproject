@@ -5,11 +5,13 @@
 ----------------------------------------------------------------------------- */
 
 html {
-  font-size: 10px
+  font-size: 10px;
+  height: 100%;
 }
 
 body {
   color: $color-greyscale-3;
-  font-family: $font-primary;
+  font-family: $font-secondary;
   font-size: 1.8rem;
+  height: 100%;
 }

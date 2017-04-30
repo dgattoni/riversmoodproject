@@ -9,7 +9,7 @@
 
 html, body {
   font: 1em/1 'Open Sans', sans-serif;
-  color: black;
+  color: #243348;
   background: #FFF;
   height: 100%;
 }
@@ -27,6 +27,10 @@ h1 {
   color: #fff;
 }
 
+.page-wrap {
+  min-height: 100%;
+  background-color: #EEE;
+}
 .page-wrap--bg-waves {
   min-height: 100%;
   background:
@@ -84,7 +88,7 @@ h1 {
 }
 
 .section--ocean {
-  background-color: #2b80b3;
+  background-color: #eeeeee;
   background-image: url('../images/ocean-footer.svg'), none;
   height: 110px;
   background-repeat: repeat-x;

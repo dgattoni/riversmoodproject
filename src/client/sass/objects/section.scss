@@ -17,16 +17,11 @@
 }
 
 .Section--waves {
-  min-height: 100%;
-  background:
-  radial-gradient(circle at 100% 50%, transparent 20%, rgba(255,255,255,.3) 21%, rgba(255,255,255,.3) 34%, transparent 35%, transparent),
-  radial-gradient(circle at 0% 50%, transparent 20%, rgba(255,255,255,.3) 21%, rgba(255,255,255,.3) 34%, transparent 35%, transparent) 0 -50px;
-  background-color: #2b80b3;
-  background-size:75px 100px;
+  padding: 0 80px 0 80px;
 }
 
 .Section--ocean {
-  background-color: #2b80b3;
+  background-color: #EEE;
   background-image: url('../img/images/ocean-footer.svg'), none;
   height: 110px;
   background-repeat: repeat-x;

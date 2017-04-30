@@ -1,3 +1,7 @@
+.timeline--waves {
+  background-color: #EEE;
+}
+
 .timeline__list {
   display: flex;
   justify-content: center;
@@ -10,10 +14,10 @@
 .timeline__list ul {
   margin: 0 auto 0px;
   list-style: none;
-  background-image: url('../images/waves.svg');
+  background-image: url('../img/images/waves.svg');
   background-size: 200px;
-    background-origin: border-box;
-    background-repeat: repeat-y;
+  background-origin: border-box;
+  background-repeat: repeat-y;
 }
 
 .timeline__list li {

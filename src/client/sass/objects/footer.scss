@@ -4,8 +4,26 @@
 
 ----------------------------------------------------------------------------- */
 
-.Footer {
-  padding: $gutter-v 0;
-  text-align: center;
-  background-color: $color-branch-secondary-1;
+.site-footer {
+  background-color: #2BB3AF;
+  display: flex;
+  justify-content: center;
+}
+
+.site-footer__nav {
+  margin: 0 10px;
+  padding: 20px;
+  align-self: flex-end;
+}
+.footer__nav__item{
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+  font-size: 14px;
+  transition: color .3s ease-in-out;
+}
+
+.footer__nav__item:hover {
+color: #2b80b3;
+text-decoration: underline;
 }
