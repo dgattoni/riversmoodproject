@@ -1,0 +1,24 @@
+[
+    {
+      "id": 1,
+      "date": "2015-03-26T10:00:00Z",
+      "mood": "happy",
+      "type": "flooded",
+      "title": "Chile Floods – At Least 2 Killed, 24 Missing in Atacama and Antofagasta",
+      "excerpt": "Torrential rain and overflowing rivers have caused widespread flooding in the normally dry regions of Atacama and Antofagasta, northern Chile. A state of emergency has been called by the government in Chile for both regions. The region of Coquimbo has also been affected by heavy rain and floods. Further heavy rain is expected, particularly in Atacama.",
+      "large_image": "http://floodlist.com/wp-content/uploads/2015/03/chanaral-floods-chile.jpg",
+      "link": "http://floodlist.com/america/chile-floods-atacama-antofagasta-coquimbo",
+      "importance": 1
+  },
+  {
+    "id": 1,
+    "date": "2015-03-26T10:00:00Z",
+    "mood": "sick",
+    "type": "polution",
+    "title": "Chile Floods – At Least 2 Killed, 24 Missing in Atacama and Antofagasta",
+    "excerpt": "Torrential rain and overflowing rivers have caused widespread flooding in the normally dry regions of Atacama and Antofagasta, northern Chile. A state of emergency has been called by the government in Chile for both regions. The region of Coquimbo has also been affected by heavy rain and floods. Further heavy rain is expected, particularly in Atacama.",
+    "large_image": "http://floodlist.com/wp-content/uploads/2015/03/chanaral-floods-chile.jpg",
+    "link": "http://floodlist.com/america/chile-floods-atacama-antofagasta-coquimbo",
+    "importance": 1
+  }
+]
