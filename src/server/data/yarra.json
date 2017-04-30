@@ -1,24 +1,51 @@
 [
-    {
-      "id": 1,
-      "date": "2015-03-26T10:00:00Z",
-      "mood": "happy",
-      "type": "flooded",
-      "title": "Chile Floods – At Least 2 Killed, 24 Missing in Atacama and Antofagasta",
-      "excerpt": "Torrential rain and overflowing rivers have caused widespread flooding in the normally dry regions of Atacama and Antofagasta, northern Chile. A state of emergency has been called by the government in Chile for both regions. The region of Coquimbo has also been affected by heavy rain and floods. Further heavy rain is expected, particularly in Atacama.",
-      "large_image": "http://floodlist.com/wp-content/uploads/2015/03/chanaral-floods-chile.jpg",
-      "link": "http://floodlist.com/america/chile-floods-atacama-antofagasta-coquimbo",
-      "importance": 1
+  {
+    "id": 1,
+    "date": "1875-01-01",
+    "mood": "nerd",
+    "emoji": "🤓",
+    "type": "article",
+    "title": "History of the Yarra River",
+    "excerpt": "The Yarra River is not big by world standards. It runs for just 242 kilometres from its source on the flanks of Mt Baw Baw in the Yarra Ranges National Park to its mouth at the head of Port Phillip Bay in Newport.",
+    "large_image": "https://www.melbournewater.com.au/aboutus/historyandheritage/PublishingImages/gold.jpg",
+    "source": "https://www.melbournewater.com.au/aboutus/historyandheritage/History-of-our-rivers-and-creeks/Pages/History-of-the-Yarra-River.aspx",
+    "importance": 1
   },
   {
     "id": 1,
-    "date": "2015-03-26T10:00:00Z",
-    "mood": "sick",
-    "type": "polution",
-    "title": "Chile Floods – At Least 2 Killed, 24 Missing in Atacama and Antofagasta",
-    "excerpt": "Torrential rain and overflowing rivers have caused widespread flooding in the normally dry regions of Atacama and Antofagasta, northern Chile. A state of emergency has been called by the government in Chile for both regions. The region of Coquimbo has also been affected by heavy rain and floods. Further heavy rain is expected, particularly in Atacama.",
-    "large_image": "http://floodlist.com/wp-content/uploads/2015/03/chanaral-floods-chile.jpg",
-    "link": "http://floodlist.com/america/chile-floods-atacama-antofagasta-coquimbo",
+    "date": "1970-01-01",
+    "mood": "happy",
+    "emoji": "😀",
+    "type": "article",
+    "title": "Melbourne’s lifeblood: How the Yarra River has changed over the years",
+    "excerpt": "By the 1970s and ‘80s the river had been cleaned up. Clean enough to host the 1988 Herald Manchester Unity Yarra Superswim.",
+    "large_image": "http://cdn.newsapi.com.au/image/v1/2d1658d70042b35be70201edf246fb61?width=650",
+    "source": "http://www.heraldsun.com.au/news/victoria/melbournes-lifeblood-how-the-yarra-river-has-changed-over-the-years/news-story/8b5ec7822f1f9ef4caeb80a48539f8dd",
+    "importance": 1
+  },
+
+  {
+    "id": 1,
+    "date": "2014-06-24",
+    "mood": "sad",
+    "emoji": "😲",
+    "type": "news",
+    "title": "Storm floods Melbourne as high winds push the river Yarra back upstream",
+    "excerpt": "Melburnians experienced the rare sight of the Yarra river bursting its city banks on Tuesday after strong winds and rain lashed the Victorian capital.",
+    "large_image": "https://i.guim.co.uk/img/static/sys-images/Guardian/Pix/pictures/2014/6/24/1403587247725/966f819e-860a-4886-b066-254472e7e7c2-2060x1236.jpeg?w=1920&q=55&auto=format&usm=12&fit=max&s=b17970c4b6b3b361f3839c2dc4a13e08",
+    "source": "https://www.theguardian.com/world/2014/jun/24/yarra-floods-southbank-as-high-winds-push-the-river-back-upstream",
+    "importance": 1
+  },
+  {
+    "id": 1,
+    "date": "2017-04-30",
+    "mood": "nerd",
+    "emoji": "🤓",
+    "type": "wiki",
+    "title": "Yarra River wikipedia updates",
+    "excerpt": "The Yarra River or historically, the Yarra Yarra River (Aboriginal: Berrern, Birr-arrung, Bay-ray-rung, Birarang, Birrarung, and Wongete) is a perennial river in east-central Victoria, Australia.",
+    "large_image": "https://en.wikipedia.org/wiki/File:Yarra_River_Pound_Bend.JPG",
+    "source": "https://en.wikipedia.org/wiki/Yarra_River",
     "importance": 1
   }
 ]
