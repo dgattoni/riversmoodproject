@@ -16,6 +16,11 @@
     margin-bottom: 1rem;
   }
 }
+
+.card--noBackground {
+  background: none;
+}
+
 .card__title {
   font-size: 20px;
   font-weight: bold;
@@ -92,4 +97,8 @@
   margin: 1rem;
   color: red;
   font-size: 15px;
+}
+
+.card__rivername {
+  height: 20px;
 }
