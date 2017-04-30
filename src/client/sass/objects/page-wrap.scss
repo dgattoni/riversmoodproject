@@ -17,3 +17,22 @@
   min-height: 100%;
   background-color: #EEE;
 }
+
+.link-home {
+  padding: 1rem;
+  margin: 3rem auto;
+  color: $color-greyscale-1;
+  text-decoration: none;
+}
+
+
+svg .river {
+  stroke-dasharray: 100;
+  animation: dash 5s linear;
+}
+
+@keyframes dash {
+  to {
+    stroke-dashoffset: 1000;
+  }
+}
