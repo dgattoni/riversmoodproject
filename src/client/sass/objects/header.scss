@@ -6,12 +6,12 @@
 
 .Header {
   display: flex;
-  justify-content: center;
-  align-items: center;
   height: 100px;
   margin: 0;
   padding: 0 40px 0 80px;
-  font-size: 1rem;
+  justify-content: space-between;
+  font-size: 16px;
+  align-items: center;
   background-color: white;
 }
 
@@ -33,7 +33,23 @@
 
 .Header__logoName {
   margin: 0 10px;
-  font-family: 'Open Sans Condensed', sans-serif;
-  font-size: 4rem;
-  font-weight: 700;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 43px;
+    font-weight: 700;
+  }
+.Header__nav {
+  margin: 0 10px;
+    padding: 20px;
+}
+.Header__nav__item {
+    margin: 0 10px;
+    font-weight: 400;
+    color: #606788;
+    font-size: 14px;
+    text-decoration: none;
+    transition: color .3s ease-in-out;
+}
+.Header__nav__item:hover {
+  color: #96cc9b;
+  text-decoration: underline;
 }

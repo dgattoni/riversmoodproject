@@ -1,58 +1,71 @@
-.timeline ul {
-  width: 650px;
-  margin: 40px auto 0px;
-  list-style: none;
+.timeline__list {
+  display: flex;
+  justify-content: center;
+  max-width: 1020px;
+  width: 100%;
+  margin: 0 auto 16px;
+  position: relative;
 }
 
-.timeline li {
+.timeline__list ul {
+  margin: 0 auto 0px;
+  list-style: none;
+  background-image: url('../images/waves.svg');
+  background-size: 200px;
+    background-origin: border-box;
+    background-repeat: repeat-y;
+}
+
+.timeline__list li {
   display: flex;
 }
 
-.timeline  li:last-child {
+.timeline__list  li:last-child {
   border: 0;
 }
 
-.timeline li p {
+.timeline__list li p {
   display: block;
   padding: 20px;
   line-height: 1.4;
 }
 
-.timeline li p:nth-child(1) {
+.timeline__list li p:nth-child(1) {
   position: relative;
-  padding-right: 25px;
-  font-size: 14px;
+  font-size: 16px;
+  font-weight: 700;
   line-height: 2.5;
   color: #FFF;
+  height: 210px;
+  width: 182px;
+  display: flex;
+  justify-content: center;
+  margin-top: -11px;
 }
 
-.timeline li p:nth-child(1):after {
+.timeline__list li p:nth-child(1):after {
   content: '';
   position: absolute;
-  top: 28px;
-  right: -12px;
+  top: 45px;
+  left: 90%;
   display: block;
   width: 20px;
   height: 20px;
-  border: 5px solid #999;
+  border: 5px solid red;
   border-radius: 50%;
-  background: #fff;
+  background: red;
 }
 
-.timeline li:first-child p:nth-child(1):after {
-  background: #cfc;
-}
-
-.timeline li p:nth-child(2) {
+.timeline__list li p:nth-child(2) {
   flex: 1;
   font-size: 24px;
   border-left: 5px solid #999;
 }
 
-.timeline  li p span {
+.timeline__list  li p span {
   display: block;
   margin: 5px 0 0;
   font-size: 12px;
   font-style: italic;
-  color: #FFF;
+  color: #606788;
 }
