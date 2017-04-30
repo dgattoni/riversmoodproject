@@ -5,17 +5,20 @@ block main
     .Container
       .Section.timeline--waves
         .timeline__list
+          h1 #{riverName} River
           ul
-            li
-              p
-              .card.card-1
-                span.card__date
-                  | 07/2016
-                span.card__title
-                  | Chile floods: Nearly 400 descend from Cajón del Maipo
-                  span.card__emoticon
-                    img(src='../img/images/emoticon__sad.svg', alt='sad')
-                span.card__body
-                  | Chile floods: Nearly 400 descend from Cajón del Maipo as evacuation begins Chile floods: Nearly 400 descend from Cajón del Maipo as evacuation begins Chile floods: Nearly 400 descend from Cajón del Maipo as evacuation begins
-                span.card__footer
-                  | read more | source | etc
+            each card,index in cards
+              li
+                p
+                .card.card-1
+                  span.card__date
+                    | #{card.date} | #{card.type}
+                  span.card__title
+                    | #{card.title}
+                    span.card__emoticon
+                      | #{card.emoji}
+                  span.card__body
+                    | #{card.excerpt}
+                  span.card__footer
+                    a.card__link(href=`${card.floodmap}`, target="_blank") View Floodmap NASA at this date
+                    a.card__link(href=`${card.source}`, target="_blank") View Data Source

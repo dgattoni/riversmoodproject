@@ -3,6 +3,8 @@
 const meta = require('../content/meta.js');
 const maipo = require('../data/maipo.json');
 const yarra = require('../data/yarra.json');
+const moment = require('moment');
+
 let data;
 
 module.exports = function(app) {
@@ -14,18 +16,25 @@ module.exports = function(app) {
       case 'yarra':
         data = yarra;
       break;
-      case 'mapocho':
-        data = mapocho;
-      break;
       default:
         data = maipo;
       break;
     }
 
-    res.render('home/river', {
-      page: 'river',
+    const augmentedData = data.slice();
+
+    augmentedData.forEach(card => {
+      let dayOfYear = moment(card.date).dayOfYear();
+      let year = moment(card.date).year();
+      let floodmap = `https://floodmap.modaps.eosdis.nasa.gov/getTile.php?location=080W030S&day=${dayOfYear}&year=${year}&product=3`;
+      Object.assign(card, {floodmap: floodmap});
+    });
+
+    res.render('home/timeline', {
+      page: 'timeline',
       meta: meta('home'),
-      data: data[0] || []
+      cards: augmentedData || [],
+      riverName: req.params.river
     });
   });
 };

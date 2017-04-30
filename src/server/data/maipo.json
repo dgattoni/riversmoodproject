@@ -1,33 +1,92 @@
-
 [
-    {
-      "id": 1,
-      "date": "2015-03-26T10:00:00Z",
-      "mood": "nerd",
-      "type": "wiki",
-      "title": "Maipo River wikipedia",
-      "excerpt": "El río Maipo (del mapudungun maipun: trabajar la tierra; arar) da origen a la principal hoya hidrográfica de la Región Metropolitana de Santiago (en Chile).",
-      "large_image": "https://upload.wikimedia.org/wikipedia/commons/5/54/El-Rio_maipo.jpg",
-      "link": "https://es.wikipedia.org/wiki/R%C3%ADo_Maipo",
-      "importance": 1,
-      "dimensions": {
-        "longitud": "250 km",
-        "superficie de la cuenca": "15.380 km²",
-        "caudal medio": "92,3 m³/s",
-        "altitud	Nacimiento": "3.000 m",
-        "desembocadura": "0 m",
-        "coordenadas": "http://tools.wmflabs.org/geohack/geohack.php?language=es&pagename=R%C3%ADo_Maipo&params=-33.611111111111_N_-71.630555555556_E_type:landmark"
-      }
+  {
+    "id": 1,
+    "date": "1805-01-01",
+    "mood": "nerd",
+    "emoji": "🤓",
+    "type": "article",
+    "title": "Plano de el terreno comprehendido entre el Río Maipo i la ciudad de Santiago de Chile...1805",
+    "excerpt": "Sociedad del Canal de Maipo, 170 años / Asociación de Canalista -- [Chile] La Asociación, 1997. 195 p. il. col (algunas pleg.), mapas col (algunos pleg.) ; 35 cm.",
+    "large_image": "http://www.memoriachilena.cl/602/articles-80847_thumbnail.jpg",
+    "source": "http://www.memoriachilena.cl/602/w3-article-80847.html",
+    "importance": 1,
+    "modis_reference": "https://floodmap.modaps.eosdis.nasa.gov/getTile.php?location=080W030S&day=94&year=1805&product=3",
+    "dimensions": {
+      "longitud": "250 km",
+      "superficieCuenca": "15.380 km²",
+      "caudalMedio": "92,3 m³/s",
+      "altitudNacimiento": "3.000 m",
+      "desembocadura": "0 m",
+      "coords": "http://tools.wmflabs.org/geohack/geohack.php?language=es&pagename=R%C3%ADo_Maipo&params=-33.611111111111_N_-71.630555555556_E_type:landmark"
+    }
   },
   {
     "id": 1,
-    "date": "2015-03-26T10:00:00Z",
-    "mood": "sick",
-    "type": "polution",
-    "title": "Chile Floods – At Least 2 Killed, 24 Missing in Atacama and Antofagasta",
-    "excerpt": "Torrential rain and overflowing rivers have caused widespread flooding in the normally dry regions of Atacama and Antofagasta, northern Chile. A state of emergency has been called by the government in Chile for both regions. The region of Coquimbo has also been affected by heavy rain and floods. Further heavy rain is expected, particularly in Atacama.",
-    "large_image": "http://floodlist.com/wp-content/uploads/2015/03/chanaral-floods-chile.jpg",
-    "link": "http://floodlist.com/america/chile-floods-atacama-antofagasta-coquimbo",
+    "date": "2000-06-12",
+    "mood": "sad",
+    "emoji": "😨",
+    "type": "news",
+    "title": "Inundaciones en Chile: Reporte de estado de situación 12 Jun 2000",
+    "excerpt": "Río Maipo: Caudal de 700 m3/sg. Se espera aumento del caudal y desbordes en sectores de Isla de Maipo, seg=FAn EMOS.",
+    "large_image": "https://upload.wikimedia.org/wikipedia/commons/5/54/El-Rio_maipo.jpg",
+    "source": "http://reliefweb.int/report/chile/inundaciones-en-chile-reporte-de-estado-de-situaci%C3%B3n-12-jun-2000",
     "importance": 1
+  },
+  {
+    "id": 1,
+    "date": "2015-11-24",
+    "mood": "sick",
+    "emoji": "🤒",
+    "type": "news",
+    "title": "Colegio Médico detectó agentes cancerígenos en aguas del Cajón del Maipo",
+    "excerpt": "Un estudio del experto Andrei Tchernitchin alertó sobre altas concentraciones de metales pesados, atribuidas al proyecto hidroléctrico Alto Maipo.",
+    "large_image": "https://upload.wikimedia.org/wikipedia/commons/5/54/El-Rio_maipo.jpg",
+    "source": "https://www.cooperativa.cl/noticias/pais/medioambiente/contaminacion/colegio-medico-detecto-agentes-cancerigenos-en-aguas-del-cajon-del/2016-01-22/152258.html",
+    "importance": 1
+  },
+  {
+    "id": 1,
+    "date": "2016-04-16",
+    "mood": "sad",
+    "emoji": "😔",
+    "type": "news",
+    "title": "Chile – Heavy Rain and Floods Leave at Least 2 Dead, 10 Missing",
+    "excerpt": "Days of heavy rain in Chile has caused widespread flooding and landslides and left at least 2 people dead and 10 missing.",
+    "large_image": "http://floodlist.com/wp-content/uploads/2016/04/melocoton-search-floods.jpg",
+    "source": "http://floodlist.com/america/chile-santiago-floods-landslides-april-2016",
+    "importance": 1
+  },
+  {
+    "id": 1,
+    "date": "2017-02-26",
+    "mood": "sad",
+    "emoji": "😔",
+    "type": "news",
+    "title": "3 Dead, 19 Missing After Floods and Landslides in North and Central Regions",
+    "excerpt": "At least 3 people have died and 19 others are missing after heavy rains struck in central and northern Chile over the weekend. The heavy rains, unusual for this time of year in Chile, caused flooding and mudslides, blocking roads and leaving communities isolated.",
+    "large_image": "https://upload.wikimedia.org/wikipedia/commons/5/54/El-Rio_maipo.jpg",
+    "source": "http://floodlist.com/america/chile-floods-landslides-north-central-regions-february-2017",
+    "importance": 1
+  },
+  {
+    "id": 1,
+    "date": "2017-04-04",
+    "mood": "nerd",
+    "emoji": "🤓",
+    "type": "wiki",
+    "title": "Maipo River wikipedia updates",
+    "excerpt": "El río Maipo (del mapudungun maipun: trabajar la tierra; arar) da origen a la principal hoya hidrográfica de la Región Metropolitana de Santiago (en Chile).",
+    "large_image": "https://upload.wikimedia.org/wikipedia/commons/5/54/El-Rio_maipo.jpg",
+    "source": "https://es.wikipedia.org/wiki/R%C3%ADo_Maipo",
+    "importance": 1,
+    "modis_reference": "https://floodmap.modaps.eosdis.nasa.gov/getTile.php?location=080W030S&day=94&year=2017&product=3",
+    "dimensions": {
+      "longitud": "250 km",
+      "superficieCuenca": "15.380 km²",
+      "caudalMedio": "92,3 m³/s",
+      "altitudNacimiento": "3.000 m",
+      "desembocadura": "0 m",
+      "coords": "http://tools.wmflabs.org/geohack/geohack.php?language=es&pagename=R%C3%ADo_Maipo&params=-33.611111111111_N_-71.630555555556_E_type:landmark"
+    }
   }
 ]
