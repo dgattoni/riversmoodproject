@@ -2,9 +2,9 @@
 
 import gulp from 'gulp';
 import runSequence from 'run-sequence';
+import data from 'gulp-data';
 
 /** Get tasks */
-
 import clean from './gulp/clean.js';
 import fonts from './gulp/fonts.js';
 import images from './gulp/images.js';
@@ -47,6 +47,15 @@ gulp.task('assets', done => {
   runSequence(['fonts', 'images'], done);
 });
 
+gulp.task('data', function() {
+  let dest = '.tmp/server/data';
+  return gulp.src('src/server/data/*.json')
+    .pipe(data(function(file) {
+      return file;
+    }))
+  .pipe(gulp.dest(dest));
+});
+
 /** Injecting */
 
 gulp.task('inject', inject);
@@ -54,7 +63,7 @@ gulp.task('inject', inject);
 /** Building */
 
 gulp.task('build', done => {
-  runSequence('clean', ['scripts', 'styles', 'assets'], 'inject', done);
+  runSequence('clean', ['scripts', 'styles', 'assets', 'data'], 'inject', done);
 });
 
 /** Watching */
