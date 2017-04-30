@@ -5,8 +5,11 @@ block main
     .Container
       .Section.timeline--waves
         .timeline__list
-          h1 #{riverName} River
           ul
+            li
+              p.card__rivername
+              .card.card--noBackground
+                h1 #{riverName} River
             each card,index in cards
               li
                 p
@@ -23,4 +26,4 @@ block main
                     a.card__link(href=`${card.floodmap}`, target="_blank") View Floodmap NASA at this date
                     a.card__link(href=`${card.source}`, target="_blank") View Data Source
   .Section
-    a.link-home(href="/", target="_blank") &larr; Back to Home
+    a.link-home(href="/") &larr; Back to Home
