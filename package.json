@@ -8,7 +8,7 @@
     "clean": "gulp clean",
     "build": "gulp build",
     "serve": "gulp serve",
-    "start": "node dist/server/index.js"
+    "start": "npm run build -- --production; node dist/server/index.js"
   },
   "engines": {
     "node": ">=7.0.0",
