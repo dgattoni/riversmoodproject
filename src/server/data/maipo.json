@@ -34,6 +34,18 @@
   },
   {
     "id": 1,
+    "date": "2013-01-21",
+    "mood": "sick",
+    "emoji": "🤢",
+    "type": "news",
+    "title": "Aguas Andinas cierra plantas de agua potable por aluviones en la cordillera",
+    "excerpt": "SANTIAGO.- La serie de aluviones ocurridos durante la jornada en la cordillera de la Zona Central tuvo efecto en el abastecimiento de agua de la Región Metropolitana.",
+    "large_image": "http://img.emol.com/2013/01/21/aguas_22412.jpg",
+    "source": "http://www.emol.com/noticias/nacional/2013/01/21/580238/aguas-andinas-cierra-plantas-de-agua-potable-por-aluviones-en-la-cordillera.html",
+    "importance": 1
+  },
+  {
+    "id": 1,
     "date": "2015-11-24",
     "mood": "sick",
     "emoji": "🤒",
@@ -66,6 +78,18 @@
     "excerpt": "At least 3 people have died and 19 others are missing after heavy rains struck in central and northern Chile over the weekend. The heavy rains, unusual for this time of year in Chile, caused flooding and mudslides, blocking roads and leaving communities isolated.",
     "large_image": "https://upload.wikimedia.org/wikipedia/commons/5/54/El-Rio_maipo.jpg",
     "source": "http://floodlist.com/america/chile-floods-landslides-north-central-regions-february-2017",
+    "importance": 1
+  },
+  {
+    "id": 1,
+    "date": "2017-02-26",
+    "mood": "sad",
+    "emoji": "😲",
+    "type": "news",
+    "title": "DRON CAPTÓ IMPACTANTES IMÁGENES DEL AUMENTO DE CAUDAL DEL RÍO MAIPO",
+    "excerpt": "El ministro de Obras Públicas, Alberto Undurraga, llegó hasta el sector del Cajón del Maipo e informó que ya más de mil personas que se encontraban aisladas han podido salir del lugar sin ningún problema. Esto, luego de que se hiciera un especie de 'relleno' para formar una pasada provisoria. ",
+    "large_image": "http://images-ahn.mdstrm.com/2017/02/26/191280_2_58b34be2d4e00.jpg?d=800x400",
+    "source": "http://www.ahoranoticias.cl/noticias/nacional/191280-videos-dron-capto-impactantes-imagenes-del-aumento-de-caudal-del-rio-maipo.html",
     "importance": 1
   },
   {
