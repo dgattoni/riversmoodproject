@@ -19,3 +19,4 @@ https://2017.spaceappschallenge.org/challenges/planetary-blues/water-water-every
 - Credits: Logo created by Becris from the Noun Project (https://thenounproject.com/Becris/)
 - Header graphic: http://www.freepik.com/free-vector/water-cycle-infographic_771771.htm Designed by Freepik
 - https://dribbble.com/mackenziechild/projects/326294-Daily-Design
+- https://dribbble.com/shots/2435392-Daily-Design-050-Lil-Faces-Illustration-Pack-GIVEAWAY
