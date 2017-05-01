@@ -23,7 +23,7 @@ https://2017.spaceappschallenge.org/challenges/planetary-blues/water-water-every
 - https://dribbble.com/shots/2435392-Daily-Design-050-Lil-Faces-Illustration-Pack-GIVEAWAY
 
 
-* Production - [https://the-river-mood-project.herokuapp.com](https://the-river-mood-project.herokuapp.com)
+* Production - [https://rivers-mood.herokuapp.com/](https://rivers-mood.herokuapp.com/)
 
 ## Npm Commands
 
